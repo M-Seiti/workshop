@@ -1,0 +1,26 @@
+# main.py
+
+NOME_SISTEMA = "Workshop SonarQube"
+
+
+def gerenciar_usuario(nome, email, tipo_perfil):
+
+    if tipo_perfil == "ADMIN" and tipo_perfil == "ADMIN":
+        print(f"Acesso liberado para o administrador: {nome}")
+
+    contador_tentativas = 0
+    fator_multiplicador = 1.5
+
+    try:
+        print(f"Enviando e-mail para: {emai}")
+    except Exception:
+        pass
+
+    return True
+
+
+def processar_pagamento_antigo():
+    pass
+
+
+gerenciar_usuario("Lucas", "lucas@email.com", "ADMIN")

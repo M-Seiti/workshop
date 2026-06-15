@@ -1,0 +1,6 @@
+#sonar-project.properties
+sonar.projectKey=workshop-projeto
+sonar.projectName=workshop-projeto
+sonar.sources=.
+sonar.host.url=http://localhost:9000
+sonar.login=SEU_TOKEN_AQUI
